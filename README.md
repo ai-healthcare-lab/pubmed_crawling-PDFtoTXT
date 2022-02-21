@@ -2,4 +2,8 @@
 
 ## installation
 ---
+'''c
 
+pip install -r requirements.txt
+
+'''
