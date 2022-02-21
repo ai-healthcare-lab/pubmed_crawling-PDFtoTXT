@@ -1,5 +1,5 @@
 # pubmed_crawling-PDFtoTXT
-클린코드가 아니므로 이해하기 어렵고 PDFMiner라는 패키지에게 전적으로 의존하므로 이를 먼저 이해하는게 좋을 것 같아 링크를 먼저 첨부합니다. 
+Clean Code가 아니므로 이해하기 어렵고 PDFMiner라는 패키지에게 전적으로 의존하므로 이를 먼저 이해하는게 좋을 것 같아 링크를 먼저 첨부합니다. 
 
 # PDFMiner Information
 PDFMiner의 구조와 어떻게 동작하는지에 대한 정리글입니다. 
@@ -18,7 +18,7 @@ pip install -r requirements.txt
 ```
 ## Final version 
 실행하면 두 개의 input 값을 주어야 합니다. 
-첫 번째는 PubMed 에서의 검색어를 입력해야하며 두 번째로는 몇 페이지까지 검색을 하는지 입니다. 
+첫 번째는 PubMed 에서 크롤링할 검색어를 입력해야하며 두 번째로는 몇 페이지까지 검색을 하는지 입니다. 
 PubMed는 1000 페이지까지 크롤링이 가능합니다. 
 
 
